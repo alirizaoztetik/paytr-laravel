@@ -1,7 +1,6 @@
 <?php
 
 use PayTR\Enums\Currency;
-use PayTR\Enums\System;
 
 return [
 

@@ -20,8 +20,8 @@ class PaytrServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->registerRoutes();
-        $this->publishConfiguration();
         $this->mergeConfiguration();
+        $this->publishConfiguration();
     }
 
     /**
