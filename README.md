@@ -115,7 +115,7 @@ It's actually that simple!
 
 A payment screen will then appear on your screen. After the transaction made on this screen, the API will return to you, all your successful or unsuccessful returns are specified in the settings;
 
-`'merchant_ok_url' => $config->getMerchantOkUrl()`
+`'merchant_ok_url' => $config->getMerchantOkUrl()` <br>
 `'merchant_fail_url' => $config->getMerchantFailUrl()`
 
 This is why these settings are very important.
